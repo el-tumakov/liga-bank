@@ -1,10 +1,16 @@
-import React from 'react';
-import './app.scss';
-
+import React from "react";
+import { Switch, Route, BrowserRouter } from "react-router-dom";
+import ConverterScreen from "../converter-screen/converter-screen";
+import "../../scss/style.scss";
 
 const App = () => (
-  <h1 className='title'>Hellow world!</h1>
+  <BrowserRouter>
+    <Switch>
+      <Route exact path="/">
+        <ConverterScreen />
+      </Route>
+    </Switch>
+  </BrowserRouter>
 );
-
 
 export default App;
