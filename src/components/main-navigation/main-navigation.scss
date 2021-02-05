@@ -1,12 +1,13 @@
 @import "../../scss/_variables.scss";
 @import "../../scss/_mixins.scss";
 
-.main-navigation {
+.main-navigation__list {
   display: flex;
-  list-style: none;
   flex-wrap: wrap;
   max-width: 650px;
   padding: 0;
+
+  list-style: none;
 }
 
 .main-navigation__item {
