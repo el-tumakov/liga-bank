@@ -9,16 +9,35 @@
 }
 
 @mixin font {
-  font-family: "Roboto", "Arial", sans-serif;
   font-style: normal;
+  font-family: "Roboto", "Arial", sans-serif;
 }
 
 @mixin header-font {
   @include font;
 
-  text-decoration: none;
-  color: $font-color;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
+  color: $font-color;
+  text-decoration: none;
+}
+
+@mixin button {
+  @include font;
+  @include hover-active;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  min-height: 50px;
+  padding: 15px;
+  overflow: hidden;
+
+  text-align: center;
+  color: $ghostly-white;
+  text-decoration: none;
+
+  background-color: $primary-color;
+  border-radius: 4px;
 }

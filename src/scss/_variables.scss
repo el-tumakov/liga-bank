@@ -1,9 +1,20 @@
-//colors
-
+//colors-names
 $ghostly-white: #f6f7ff;
+$light-grey: #e0e1ea;
 $grey-blue: #1f1e25;
 $blue: #2c36f2;
+$medium-blue: #2027b3;
+$royal-blue: #3640fe;
 
+//colors-types
 $primary-color: $blue;
 $bg-color-first: $ghostly-white;
 $font-color: $grey-blue;
+$font-color-light: $ghostly-white;
+$font-color-semi-light: $light-grey;
+$bg-promo-color-1: $royal-blue;
+$bg-promo-color-2: $medium-blue;
+
+// Retina
+$retina-dpi: 144dpi;
+$retina-dppx: 1.5dppx;
