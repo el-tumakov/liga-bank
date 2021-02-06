@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./logo.scss";
 
 const Logo = () => (
-  <Link className="logo header__logo" to="#">
+  <Link className="logo" to="#">
     <img
       className="logo__image"
       src="img/logo.svg"
