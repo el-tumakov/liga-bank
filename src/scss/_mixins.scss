@@ -23,6 +23,25 @@
   text-decoration: none;
 }
 
+@mixin footer-main-font {
+  @include font;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: $font-color;
+  text-decoration: none;
+}
+
+@mixin footer-description-font {
+  @include font;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: $font-color-footer;
+}
+
 @mixin button {
   @include font;
   @include hover-active;
