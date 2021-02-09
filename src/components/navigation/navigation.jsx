@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 const Navigation = (props) => {
@@ -38,6 +39,10 @@ const Navigation = (props) => {
       </li>
     </ul>
   );
+};
+
+Navigation.propTypes = {
+  navigationType: PropTypes.string.isRequired,
 };
 
 export default Navigation;

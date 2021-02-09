@@ -32,11 +32,11 @@
   &::before {
     content: "";
     position: absolute;
-    top: -32px;
+    top: -20px;
     left: 50%;
 
     width: 1px;
-    height: 289px;
+    height: calc(100% + 34px);
 
     background-color: #c1c2ca;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -63,6 +63,7 @@
 .converter-history__money-source {
   position: relative;
 
+  display: flex;
   margin: 0;
   margin-right: 13px;
   padding-right: 54px;
@@ -83,11 +84,15 @@
 }
 
 .converter-history__money-converted {
+  display: flex;
   margin: 0;
 }
 
 .converter-history__amount {
+  display: block;
+  max-width: 110px;
   margin-right: 6px;
+  overflow: hidden;
 }
 
 .converter-history__clear-button {

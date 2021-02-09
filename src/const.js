@@ -4,6 +4,14 @@ export const NavigationTypes = {
 };
 
 export const ConverterTypes = {
-  SOURCE: "source",
-  CONVERTED: "converted",
+  SOURCE: 'source',
+  CONVERTED: 'converted',
 };
+
+export const CurrencyTypes = {
+  USD: 'USD',
+  GBP: 'GBP',
+  EUR: 'EUR',
+  RUB: 'RUB',
+  CNY: 'CNY'
+}
