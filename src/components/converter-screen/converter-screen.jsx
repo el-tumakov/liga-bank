@@ -5,15 +5,17 @@ import Converter from "../converter/converter";
 import Footer from "../footer/footer";
 import "./converter-screen.scss";
 
-const ConverterScreen = () => (
-  <React.Fragment>
-    <Header />
-    <main>
-      <Promo />
-      <Converter />
-    </main>
-    <Footer />
-  </React.Fragment>
-);
+const ConverterScreen = () => {
+  return (
+    <React.Fragment>
+      <Header />
+      <main>
+        <Promo />
+        <Converter />
+      </main>
+      <Footer />
+    </React.Fragment>
+  );
+};
 
 export default ConverterScreen;
